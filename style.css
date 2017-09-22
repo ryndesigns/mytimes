@@ -1,0 +1,37 @@
+/*header section*/
+header {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  z-index: 5;
+  width: 100%;
+  border-bottom: 1px solid black;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo span {
+  color: mediumaquamarine;
+  padding-left: 10px;
+}
+.logo img {
+  padding-left: 20px;
+}
+header nav {
+  padding-right: 40px;
+}
+nav span {
+  display: inline-block;
+  text-decoration: underline;
+  padding: 20px 10px;
+}
+a {
+  color: black;
+}
+nav {
+  display: block;
+}
